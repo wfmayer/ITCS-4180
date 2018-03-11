@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity ForResult Example</string>
+    <string name="main_activity_text">Main Activity!</string>
+    <string name="button_main_text">Goto Second Activity</string>
+    <string name="second_activity_text">Second Activity!</string>
+    <string name="type_something">Type Something!</string>
+    <string name="button_second_send">Send Text!</string>
+</resources>

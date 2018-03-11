@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_contactList"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="42dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/imageView_contactListView"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/default_image" />
+
+    <TextView
+        android:id="@+id/textView_firstNameContactList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_contactList"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageView_contactList"
+        android:text="@string/textView_firstNameContactListString" />
+
+    <TextView
+        android:id="@+id/textView_lastNameContactList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_firstNameContactList"
+        android:layout_alignBottom="@+id/textView_firstNameContactList"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView_firstNameContactList"
+        android:text="@string/textView_lastNameContactListString" />
+
+    <TextView
+        android:id="@+id/textView_phoneContactList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_contactList"
+        android:layout_alignStart="@+id/textView_firstNameContactList"
+        android:layout_marginBottom="12dp"
+        android:text="@string/textView_phoneContactListString" />
+</RelativeLayout>

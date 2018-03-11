@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InClass4</string>
+    <string name="textView_countStaticString">Select Passwords Count:</string>
+    <string name="textView_countDynamicString">(Password Count)</string>
+    <string name="textView_lengthStaticString">Select Password lengths:</string>
+    <string name="textView_lengthDynamicString">(Password Length)</string>
+    <string name="textView_passStaticString">Password:</string>
+    <string name="textView_passDynamicString">(Password will appear here)</string>
+    <string name="button_ThreadString">Generate Passwords (Thread)</string>
+    <string name="button_AsyncString">Generate Passwords (Async Task)</string>
+    <string name="textView_generateString">Password Generator</string>
+</resources>

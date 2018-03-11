@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InClass02</string>
+    <string name="staticMood_text">Your current mood:</string>
+    <string name="moodStatic_text">Happy</string>
+    <string name="string_select_avatar">Select your Avatar</string>
+    <string name="display_name_text">Name</string>
+</resources>
